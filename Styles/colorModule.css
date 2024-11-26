@@ -1,0 +1,49 @@
+:root {
+/* Color Pallate */
+--red-500: red;
+--green-500: ;
+--blue-500: ;
+--yellow-500: ;
+--orange-500: ;
+--white-500: ;
+--black-500: ;
+
+/* Color Indicators */
+
+--success-color: #60a917;
+--alert-color: #CE352C;
+--warning-color : #ff9447;
+
+}
+
+.bg-red-500 {
+    background-color: red;
+}
+
+.success-bg {
+    background-color: var(--success-color);
+}
+
+.success-fg {
+    color: var(--success-color);
+}
+  
+.alert-bg {
+    background-color: var(--alert-color);
+}
+
+.alert-fg {
+    color: var(--alert-color);
+}
+
+.warning-bg {
+    background-color: #ff9447;
+}
+
+.warning-fg {
+    color: #ff9447;
+}
+
+
+
+

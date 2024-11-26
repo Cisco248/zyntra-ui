@@ -1,0 +1,29 @@
+/* Navigation  Bar CSS Style*/
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.logo-img {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Footer Component CSS Style */
+.footer {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: aliceblue;
+}
