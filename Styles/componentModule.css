@@ -18,6 +18,26 @@
   width: 1rem;
 }
 
+/* Navbar 3 */
+.navbar-3{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60%;
+}
+
+.navbar-3-container ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-3-container ul li{
+  text-decoration: none;
+}
+
 /* Footer Component CSS Style */
 .footer {
   width: 100%;
