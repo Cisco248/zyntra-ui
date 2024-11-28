@@ -20,6 +20,10 @@
     background-color: red;
 }
 
+.bg-red-300 {
+    background-color: rgb(240, 106, 106);
+}
+
 .success-bg {
     background-color: var(--success-color);
 }

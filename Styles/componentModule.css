@@ -18,6 +18,26 @@
   width: 1rem;
 }
 
+
+/*  */
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navilist {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  font-weight: 500;
+}
+
+.navilist:hover {
+  background-color: blue;
+}
+
 /* Footer Component CSS Style */
 .footer {
   width: 100%;
