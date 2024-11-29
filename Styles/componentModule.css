@@ -57,6 +57,28 @@
   width: 100%;
 }
 
+/* Button */
+.button-dee {
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+  background-size: 200% 100%;
+  background-position: left;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-position 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.button-dee:hover {
+  background-position: right;
+}
+
+
 /* Footer Component CSS Style */
 .footer {
   width: 100%;
