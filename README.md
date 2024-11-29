@@ -2,7 +2,7 @@
 
 #### Display Attributes
 
-``` flex display: flex; ``` 
+##### flex ``` display: flex; ``` 
 .flex-col { display: flex; flex-direction: column; }
 .grid { display: grid; }
 .block { display: block; }
