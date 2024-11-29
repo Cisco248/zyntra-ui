@@ -2,10 +2,10 @@
 
 ## Display Attributes
 
-1. flex 
+* flex 
     ```display: flex;```
 
-2. flex-col 
+* flex-col 
     ``` display: flex, flex-direction: column ```
 
 3. grid 
