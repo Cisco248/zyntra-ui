@@ -1,0 +1,57 @@
+/* Dropdown Navbar */
+.navbar-4 {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.nav-links-4 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-links-4 li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+}
+
+.nav-links-4 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links-4 a:hover {
+  color: #FFD700;
+}
+
+.dropdown-menu-4 {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+}
+
+.dropdown-4:hover .dropdown-menu-4 {
+  display: block;
+}
+
+.dropdown-menu-4 li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu-4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu-4 a:hover {
+  background-color: #575757;
+}
