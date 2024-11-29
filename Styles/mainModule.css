@@ -5,11 +5,22 @@
 
 /* Display Modes */
 .flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
 .grid { display: grid; }
 .block { display: block; }
 .inline { display: inline; }
 .inline-flex { display: inline-flex; }
 .inline-block { display: inline-block; }
+
+.jus-center { justify-content: center;}
+.jus-between { justify-content: space-between;}
+.jus-around { justify-content: space-between;}
+.jus-evenly { justify-content: space-evenly;}
+.jus-start { justify-content: flex-start;}
+.jus-end { justify-content: flex-end;}
+.jus-baseline { justify-content: baseline;}
+
+.align-center { align-items: center;}
 
 /* Position Modes */
 .static { position: static; }
@@ -1455,5 +1466,5 @@
 .ml-100 { margin-left: 100px; }
 
 .visible { visibility: visible !important; }
-.no-visible { visibility: hidden !important; }
+.hidden { visibility: hidden !important; }
 
