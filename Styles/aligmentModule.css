@@ -1,121 +1,55 @@
-*,
-*::before,
-*::after {
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-}
+/* Display Modes */
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.grid { display: grid; }
+.block { display: block; }
+.inline { display: inline; }
+.inline-flex { display: inline-flex; }
+.inline-block { display: inline-block; }
 
-html {
-    -ms-overflow-style: scrollbar;
-    font-family: sans-serif;
-    scroll-behavior: smooth;
-}
- 
-body {
-    line-height: 1.5;
-    overflow-x: hidden;
-    background-color: #ffffff;
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-}
+/* vertical aligment variables */
+.jus-center { justify-content: center;}
+.jus-between { justify-content: space-between;}
+.jus-around { justify-content: space-between;}
+.jus-evenly { justify-content: space-evenly;}
+.jus-start { justify-content: flex-start;}
+.jus-end { justify-content: flex-end;}
+.jus-baseline { justify-content: baseline;}
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  /* vertical-align: center; */
-}
+/* horizontal aligment variables */
+.align-center { align-items: center;}
+.align-baseline { align-items: baseline;}
+.align-start { align-items: start;}
+.align-end { align-items: end;}
+.align-flex-end { align-items: flex-end;}
+.align-flex-start { align-items: flex-start;}
+.align-normal { align-items: normal;}
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
+/* Position Modes */
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+.inherit { position: inherit; }
+.initial { position: initial; }
+.unset { position: unset; }
+
+/* Custom Variable */
+.center-row { display: flex; justify-content: center; align-items: center; }
+.center-col { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.pos-top-left { position: absolute; display: flex; left: 0; top: 0; }
+.pos-top-center { position: absolute; display: flex; top: 0; justify-content: center; }
+.pos-top-right { position: absolute; display: flex; right: 0; top: 0; }
+.pos-center-left { position: absolute; display: flex; flex-direction: column; align-items: center; left: 0; }
+.pos-center { position: absolute; display: flex; justify-content: center; align-items: center; }
+.pos-center-right { position: absolute; display: flex; flex-direction: column; align-items: center; right: 0; }
+.pos-bottom-left { position: absolute; display: flex; flex-direction: column; bottom: 0; right: 0; }
+.pos-bottom-center { position: absolute; display: flex; flex-direction: column; align-items: center; bottom: 0; }
+.pos-bottom-right { position: absolute; display: flex; flex-direction: column; right: 0; bottom: 0; }
+
+*, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0;} 
+html { -ms-overflow-style: scrollbar; font-family: sans-serif; scroll-behavior: smooth; } 
+body { line-height: 1.5; overflow-x: hidden; min-height: 100vh; text-rendering: optimizeSpeed; } 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: center; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }

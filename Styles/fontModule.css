@@ -1,0 +1,138 @@
+/* google font imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Font Variables */
+.roboto-thin { font-family: "Roboto", sans-serif; font-weight: 100; font-style: normal; } 
+.roboto-light { font-family: "Roboto", sans-serif; font-weight: 300; font-style: normal; } 
+.roboto-regular { font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; } 
+.roboto-medium { font-family: "Roboto", sans-serif; font-weight: 500; font-style: normal; } 
+.roboto-bold { font-family: "Roboto", sans-serif; font-weight: 700; font-style: normal; } 
+.roboto-black { font-family: "Roboto", sans-serif; font-weight: 900; font-style: normal; } 
+.roboto-thin-italic { font-family: "Roboto", sans-serif; font-weight: 100; font-style: italic; } 
+.roboto-light-italic { font-family: "Roboto", sans-serif; font-weight: 300; font-style: italic; } 
+.roboto-regular-italic { font-family: "Roboto", sans-serif; font-weight: 400; font-style: italic; } 
+.roboto-medium-italic { font-family: "Roboto", sans-serif; font-weight: 500; font-style: italic; } 
+.roboto-bold-italic { font-family: "Roboto", sans-serif; font-weight: 700; font-style: italic; } 
+.roboto-black-italic { font-family: "Roboto", sans-serif; font-weight: 900; font-style: italic; }
+
+.righteous-regular { font-family: "Righteous", sans-serif; font-weight: 400; font-style: normal; }
+
+.lexend-thin { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 100; font-style: normal; }
+.lexend-extralight { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.lexend-light { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.lexend-regular { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.lexend-medium { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.lexend-semibold { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.lexend-bold { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.lexend-extrabold { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+.lexend-black { font-family: "Lexend", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; }
+
+.sour-gummy-thin { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 100; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-extralight { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-light { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-regular { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-medium { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-semibold { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-bold { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-extrabold { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; font-variation-settings: "wdth" 100; }
+.sour-gummy-black { font-family: "Sour Gummy", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; font-variation-settings: "wdth" 100; }
+
+.plus-jakarta-sans-extralight { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.plus-jakarta-sans-light { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.plus-jakarta-sans-regular { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.plus-jakarta-sans-medium { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.plus-jakarta-sans-semibold { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.plus-jakarta-sans-bold { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.plus-jakarta-sans-extrabold { font-family: "Plus Jakarta Sans", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+
+.mona-sans-extralight { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-light { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-regular { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-medium { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-semibold { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-bold { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-extrabold { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; font-variation-settings: "wdth" 100; }
+.mona-sans-black { font-family: "Mona Sans", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; font-variation-settings: "wdth" 100; }
+
+.dosis-extralight { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.dosis-light { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.dosis-regular { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.dosis-medium { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.dosis-semibold { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.dosis-bold { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.dosis-extrabold { font-family: "Dosis", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+
+.josefin-sans-thin { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 100; font-style: normal; }
+.josefin-sans-extralight { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.josefin-sans-light { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.josefin-sans-regular { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.josefin-sans-medium { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.josefin-sans-semibold { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.josefin-sans-bold { font-family: "Josefin Sans", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+
+.manrope-extralight { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.manrope-light { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.manrope-regular { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.manrope-medium { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.manrope-semibold { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.manrope-bold { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.manrope-extrabold { font-family: "Manrope", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+
+.lato-thin { font-family: "Lato", sans-serif; font-weight: 100; font-style: normal; }
+.lato-light { font-family: "Lato", sans-serif; font-weight: 300; font-style: normal; }
+.lato-regular { font-family: "Lato", sans-serif; font-weight: 400; font-style: normal; }
+.lato-bold { font-family: "Lato", sans-serif; font-weight: 700; font-style: normal; }
+.lato-black { font-family: "Lato", sans-serif; font-weight: 900; font-style: normal; }
+.lato-thin-italic { font-family: "Lato", sans-serif; font-weight: 100; font-style: italic; }
+.lato-light-italic { font-family: "Lato", sans-serif; font-weight: 300; font-style: italic; }
+.lato-regular-italic { font-family: "Lato", sans-serif; font-weight: 400; font-style: italic; }
+.lato-bold-italic { font-family: "Lato", sans-serif; font-weight: 700; font-style: italic; }
+.lato-black-italic { font-family: "Lato", sans-serif; font-weight: 900; font-style: italic; }
+
+.inter-thin { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 100; font-style: normal; }
+.inter-extra-light { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.inter-light { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.inter-regular { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.inter-medium { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.inter-semibold { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.inter-bold { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.inter-extra-bold { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+.inter-black { font-family: "Inter", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; }
+
+.poppins-thin { font-family: "Poppins", sans-serif; font-weight: 100; font-style: normal; }
+.poppins-extralight { font-family: "Poppins", sans-serif; font-weight: 200; font-style: normal; }
+.poppins-light { font-family: "Poppins", sans-serif; font-weight: 300; font-style: normal; }
+.poppins-regular { font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal; }
+.poppins-medium { font-family: "Poppins", sans-serif; font-weight: 500; font-style: normal; }
+.poppins-semibold { font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; }
+.poppins-bold { font-family: "Poppins", sans-serif; font-weight: 700; font-style: normal; }
+.poppins-extrabold { font-family: "Poppins", sans-serif; font-weight: 800; font-style: normal; }
+.poppins-black { font-family: "Poppins", sans-serif; font-weight: 900; font-style: normal; }
+.poppins-thin-italic { font-family: "Poppins", sans-serif; font-weight: 100; font-style: italic; }
+.poppins-extralight-italic { font-family: "Poppins", sans-serif; font-weight: 200; font-style: italic; }
+.poppins-light-italic { font-family: "Poppins", sans-serif; font-weight: 300; font-style: italic; }
+.poppins-regular-italic { font-family: "Poppins", sans-serif; font-weight: 400; font-style: italic; }
+.poppins-medium-italic { font-family: "Poppins", sans-serif; font-weight: 500; font-style: italic; }
+.poppins-semibold-italic { font-family: "Poppins", sans-serif; font-weight: 600; font-style: italic; }
+.poppins-bold-italic { font-family: "Poppins", sans-serif; font-weight: 700; font-style: italic; }
+.poppins-extrabold-italic { font-family: "Poppins", sans-serif; font-weight: 800; font-style: italic; }
+.poppins-black-italic { font-family: "Poppins", sans-serif; font-weight: 900; font-style: italic; }
+
+.open-sans-light-weight { font-family: "Open Sans", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; font-variation-settings: "wdth" 100; } 
+.open-sans-medium-weight { font-family: "Open Sans", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; font-variation-settings: "wdth" 100; } 
+.open-sans-bold-weight { font-family: "Open Sans", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; font-variation-settings: "wdth" 100; }
+
+

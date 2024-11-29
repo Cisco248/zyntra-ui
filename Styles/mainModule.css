@@ -2,279 +2,8 @@
 @import "./colorModule.css";
 @import "./animationModule.css";
 @import "./componentModule.css";
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-:root {
-    .roboto-thin {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-      }
-      
-      .roboto-light {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .roboto-regular {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .roboto-medium {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .roboto-bold {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .roboto-black {
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-      .roboto-thin-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: italic;
-      }
-      
-      .roboto-light-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-      
-      .roboto-regular-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .roboto-medium-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: italic;
-      }
-      
-      .roboto-bold-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
-      .roboto-black-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-      
-      .righteous-regular {
-        font-family: "Righteous", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      .roboto-thin {
-        font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: normal;
-      }
-      
-      .roboto-light {
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .roboto-regular {
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .roboto-medium {
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .roboto-bold {
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .roboto-black {
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-      .roboto-thin-italic {
-        font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: italic;
-      }
-      
-      .roboto-light-italic {
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-      
-      .roboto-regular-italic {
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .roboto-medium-italic {
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: italic;
-      }
-      
-      .roboto-bold-italic {
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
-      .roboto-black-italic {
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-      .roboto-thin {
-        font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: normal;
-      }
-      
-      .roboto-light {
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .roboto-regular {
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .roboto-medium {
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .roboto-bold {
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .roboto-black {
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-      .roboto-thin-italic {
-        font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: italic;
-      }
-      
-      .roboto-light-italic {
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-      
-      .roboto-regular-italic {
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .roboto-medium-italic {
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: italic;
-      }
-      
-      .roboto-bold-italic {
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
-      .roboto-black-italic {
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-
-     /* Use a value from 100 to 900 */
-    
-    .lexend-thin {
-        font-family: "Lexend", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-    }
-
-    .lexend-light {
-        font-family: "Lexend", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
-    }
-              
-}
-
-/* Display Modes */
-.flex { display: flex; }
-.flex-col { display: flex; flex-direction: column; }
-.grid { display: grid; }
-.block { display: block; }
-.inline { display: inline; }
-.inline-flex { display: inline-flex; }
-.inline-block { display: inline-block; }
-
-.jus-center { justify-content: center;}
-.jus-between { justify-content: space-between;}
-.jus-around { justify-content: space-between;}
-.jus-evenly { justify-content: space-evenly;}
-.jus-start { justify-content: flex-start;}
-.jus-end { justify-content: flex-end;}
-.jus-baseline { justify-content: baseline;}
-
-.align-center { align-items: center;}
-
-/* Position Modes */
-.static { position: static; }
-.relative { position: relative; }
-.absolute { position: absolute; }
-.fixed { position: fixed; }
-.sticky { position: sticky; }
-.inherit { position: inherit; }
-.initial { position: initial; }
-.unset { position: unset; }
+@import "./aligmentModule.css";
+@import "./fontModule.css";
 
 /* Font sizes from 1px to 100px */
 .fs-1 { font-size: 1px; }
@@ -622,19 +351,29 @@
 .z-19 { z-index: 19 !important; }
 .z-20 { z-index: 20 !important; }
 
+.border-solid { border-style: solid!important; }
+.border-dashed { border-style: dashed!important; }
+.border-dotted { border-style: dotted!important; }
+.border-double { border-style: double!important; }
+.border-groove { border-style: groove!important; }
+.border-inset { border-style: inset!important; }
+.border-outset { border-style: outset!important; }
+.border-ridge { border-style: ridge!important; }
+
 .no-border { border: 0 !important; }
 .no-border-left { border-left: none !important; }
 .no-border-right { border-right: none !important; }
 .no-border-top { border-top: none !important; }
 .no-border-bottom { border-bottom: none !important; }
 .no-border-visible { border-color: transparent !important; }
+
 .border-none { border: 0 !important; }
 .border-left-none { border-left: none !important; }
 .border-right-none { border-right: none !important; }
 .border-top-none { border-top: none !important; }
 .border-bottom-none { border-bottom: none !important; }
-.border-visible-none { border-color: transparent !important; }
-.border { border: 1px solid #dfdfdf; }
+.border-transparent { border-color: transparent !important; }
+
 .border-left { border-left: 1px solid transparent; }
 .border-right { border-right: 1px solid transparent; }
 .border-top { border-top: 1px solid transparent; }
@@ -671,32 +410,23 @@
 .br-95 { border-radius: 95px; }
 .br-100 { border-radius: 100px; }
 
-.border-solid { border-style: solid!important; }
-.border-dashed { border-style: dashed!important; }
-.border-dotted { border-style: dotted!important; }
-.border-double { border-style: double!important; }
-.border-groove { border-style: groove!important; }
-.border-inset { border-style: inset!important; }
-.border-outset { border-style: outset!important; }
-.border-ridge { border-style: ridge!important; }
-
-.c-auto { cursor: auto; }
-.c-default { cursor: default; }
-.c-none { cursor: none; }
-.c-context-menu { cursor: context-menu; }
-.c-help { cursor: help; }
-.c-pointer { cursor: pointer; }
-.c-progress { cursor: progress; }
-.c-wait { cursor: wait; }
-.c-cell { cursor: cell; }
-.c-crosshair { cursor: crosshair; }
-.c-text { cursor: text; }
-.c-text-vertical { cursor: vertical-text; }
-.c-alias { cursor: alias; }
-.c-copy { cursor: copy; }
-.c-move { cursor: move; }
-.c-no-drop { cursor: no-drop; }
-.c-not-allowed { cursor: not-allowed; }
+.cursor-auto { cursor: auto; }
+.cursor-default { cursor: default; }
+.cursor-none { cursor: none; }
+.cursor-context-menu { cursor: context-menu; }
+.cursor-help { cursor: help; }
+.cursor-pointer { cursor: pointer; }
+.cursor-progress { cursor: progress; }
+.cursor-wait { cursor: wait; }
+.cursor-cell { cursor: cell; }
+.cursor-crosshair { cursor: crosshair; }
+.cursor-text { cursor: text; }
+.cursor-text-vertical { cursor: vertical-text; }
+.cursor-alias { cursor: alias; }
+.cursor-copy { cursor: copy; }
+.cursor-move { cursor: move; }
+.cursor-no-drop { cursor: no-drop; }
+.cursor-not-allowed { cursor: not-allowed; }
 
 /* Padding */
 .p-1 { padding: 1px; } 
