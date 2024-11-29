@@ -204,6 +204,122 @@
 .text-gray-800 { color: #424242; }
 .text-gray-900 { color: #212121; }
 
+/* Border Colors */
+/* red color */
+.border-1-red-50 { border: 1px solid #FDE8E8; }
+.border-2-red-50 { border: 2px solid #FDE8E8; }
+.border-3-red-50 { border: 3px solid #FDE8E8; }
+.border-4-red-50 { border: 4px solid #FDE8E8; }
+.border-5-red-50 { border: 5px solid #FDE8E8; }
+.border-6-red-50 { border: 6px solid #FDE8E8; }
+.border-7-red-50 { border: 7px solid #FDE8E8; }
+.border-8-red-50 { border: 8px solid #FDE8E8; }
+.border-9-red-50 { border: 9px solid #FDE8E8; }
+.border-10-red-50 { border: 10px solid #FDE8E8; }
+.border-1-red-100 { border: 1px solid #ffcdd2; }
+.border-2-red-100 { border: 2px solid #ffcdd2; }
+.border-3-red-100 { border: 3px solid #ffcdd2; }
+.border-4-red-100 { border: 4px solid #ffcdd2; }
+.border-5-red-100 { border: 5px solid #ffcdd2; }
+.border-6-red-100 { border: 6px solid #ffcdd2; }
+.border-7-red-100 { border: 7px solid #ffcdd2; }
+.border-8-red-100 { border: 8px solid #ffcdd2; }
+.border-9-red-100 { border: 9px solid #ffcdd2; }
+.border-10-red-100 { border: 10px solid #ffcdd2; }
+
+.text-red-200 { color: #FFCDD2; }
+.text-red-300 { color: #EF9A9A; }
+.text-red-400 { color: #F44336; }
+.text-red-500 { color: #E53935; }
+.text-red-600 { color: #D32F2F; }
+.text-red-700 { color: #C62828; }
+.text-red-800 { color: #B71C1C; }
+.text-red-900 { color: #9B0000; }
+
+/* Yellow */
+.text-yellow-50 { color: #FFF9C4; }
+.text-yellow-100 { color: #FFF59D; }
+.text-yellow-200 { color: #FFF176; }
+.text-yellow-300 { color: #FFEE58; }
+.text-yellow-400 { color: #FFEB3B; }
+.text-yellow-500 { color: #FDD835; }
+.text-yellow-600 { color: #FBC02D; }
+.text-yellow-700 { color: #F9A825; }
+.text-yellow-800 { color: #F57F17; }
+.text-yellow-900 { color: #F4511E; }
+
+/* Green */
+.text-green-50 { color: #E8F5E9; }
+.text-green-100 { color: #C8E6C9; }
+.text-green-200 { color: #A5D6A7; }
+.text-green-300 { color: #81C784; }
+.text-green-400 { color: #66BB6A; }
+.text-green-500 { color: #4CAF50; }
+.text-green-600 { color: #43A047; }
+.text-green-700 { color: #388E3C; }
+.text-green-800 { color: #2C6B2F; }
+.text-green-900 { color: #1B5E20; }
+
+/* Blue */
+.text-blue-50 { color: #E3F2FD; }
+.text-blue-100 { color: #BBDEFB; }
+.text-blue-200 { color: #90CAF9; }
+.text-blue-300 { color: #64B5F6; }
+.text-blue-400 { color: #42A5F5; }
+.text-blue-500 { color: #2196F3; }
+.text-blue-600 { color: #1E88E5; }
+.text-blue-700 { color: #1976D2; }
+.text-blue-800 { color: #1565C0; }
+.text-blue-900 { color: #0D47A1; }
+
+/* Indigo */
+.text-indigo-50 { color: #E8EAF6; }
+.text-indigo-100 { color: #C5CAE9; }
+.text-indigo-200 { color: #9FA8DA; }
+.text-indigo-300 { color: #7986CB; }
+.text-indigo-400 { color: #5C6BC0; }
+.text-indigo-500 { color: #3F51B5; }
+.text-indigo-600 { color: #3949AB; }
+.text-indigo-700 { color: #303F9F; }
+.text-indigo-800 { color: #283593; }
+.text-indigo-900 { color: #1A237E; }
+
+/* Purple */
+.text-purple-50 { color: #F3E5F5; }
+.text-purple-100 { color: #E1BEE7; }
+.text-purple-200 { color: #CE93D8; }
+.text-purple-300 { color: #BA68C8; }
+.text-purple-400 { color: #9C27B0; }
+.text-purple-500 { color: #8E24AA; }
+.text-purple-600 { color: #7B1FA2; }
+.text-purple-700 { color: #6A1B9A; }
+.text-purple-800 { color: #4A148C; }
+.text-purple-900 { color: #38006B; }
+
+/* Pink */
+.text-pink-50 { color: #FCE4EC; }
+.text-pink-100 { color: #F8BBD0; }
+.text-pink-200 { color: #F48FB1; }
+.text-pink-300 { color: #F06292; }
+.text-pink-400 { color: #EC407A; }
+.text-pink-500 { color: #E91E63; }
+.text-pink-600 { color: #D81B60; }
+.text-pink-700 { color: #C2185B; }
+.text-pink-800 { color: #AD1457; }
+.text-pink-900 { color: #880E4F; }
+
+/* Gray */
+.text-gray-50 { color: #FAFAFA; }
+.text-gray-100 { color: #F5F5F5; }
+.text-gray-200 { color: #EEEEEE; }
+.text-gray-300 { color: #E0E0E0; }
+.text-gray-400 { color: #BDBDBD; }
+.text-gray-500 { color: #9E9E9E; }
+.text-gray-600 { color: #757575; }
+.text-gray-700 { color: #616161; }
+.text-gray-800 { color: #424242; }
+.text-gray-900 { color: #212121; }
+
 /* Black */
 .text-black { color: #000000; }
 

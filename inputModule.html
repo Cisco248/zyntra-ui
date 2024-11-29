@@ -7,33 +7,52 @@
   <link rel="stylesheet" href="./Styles/mainModule.css">
   <title>Professional Form</title>
 </head>
-<body>
+<body class="flex-col jus-center align-center">
   <div class="form-field flex-col align-center w-600 h-400 bg-gray-100">
-    <h2 class="fs-20">Contact Us</h2>
-    <form action="#" method="POST">
+    <h2 class="roboto-medium fs-30">Contact Us</h2>
+    <form class="flex-col jus-center" action="#" method="POST">
       <!-- Name Field -->
-      <div class="form-field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <div class="flex-col">
+        <label 
+        class="roboto-regular p-5" 
+        for="name"
+        >
+        Name
+        </label>
+        <input
+        class="p-5" 
+        type="text" 
+        placeholder="Enter your name" 
+        required
+        >
         <div class="error" id="name-error"></div>
       </div>
 
       <!-- Email Field -->
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <div class="flex-col">
+        <label class="roboto-regular p-5" for="email">Email</label>
+        <input 
+        type="email" 
+        placeholder="Enter your email" 
+        required
+        >
         <div class="error" id="email-error"></div>
       </div>
 
       <!-- Message Field -->
-      <div class="form-field">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Enter your message" rows="4" required style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+      <div class="flex-col">
+        <label class="roboto-regular p-5" for="message">Message</label>
+        <input 
+        type="text"
+        placeholder="Enter your message" 
+        rows="4" 
+        required
+        ></input>
         <div class="error" id="message-error"></div>
       </div>
 
       <!-- Submit Button -->
-      <button type="submit" class="form-button">Send Message</button>
+      <button type="submit" class="">Send Message</button>
     </form>
   </div>
 
