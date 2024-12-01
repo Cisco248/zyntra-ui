@@ -1,21 +1,22 @@
-const cufNavbarFilledDark = `
-    .cuf-navbar-filled-dark {
+export const cufNavbarFilledLight = () => {
+    const styles = `
+    .cuf-navbar-filled-light {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: 50px;
-        background-color: #343A40;
+        background-color: #E0E0E0;
     }
 
-    .cuf-navbar-filled-ul-list-dark {
+    .cuf-navbar-filled-ul-list-light {
         display: flex;
-        gap: 100px;
+        gap: 100px;  
         list-style: none;
     }
 
-    .cuf-navbar-dark-fc {
-        color: #E0E0E0;
+    .cuf-navbar-light-fc {
+        color: #000;
         text-decoration: none;
         font-size: 20px;
         font-weight: 500;
@@ -24,14 +25,16 @@ const cufNavbarFilledDark = `
         letter-spacing: 2px;
     }
 
-    .cuf-navbar-dark-fc:hover {
+    .cuf-navbar-light-fc:hover {
         transition: 500ms ease-in-out;
         color: #007BFF;
     }
-`;
+    `;
+    
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";    
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+}
 
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = cufNavbarFilledDark;
-document.head.appendChild(styleSheet);
 
