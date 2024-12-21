@@ -2,23 +2,23 @@
 
 ## Display Attributes
 
-* flex 
+* flex
     ```display: flex;```
 
-* flex-col 
+* flex-col
     ``` display: flex, flex-direction: column ```
 
-3. grid 
+1. grid
     ``` display: grid; ```
 
-4. block 
+2. block
     ``` display: block; ```
 
-5. inline 
+3. inline
     ``` display: inline; ```
 
-6. inline-flex  
+4. inline-flex
     ``` display: inline-flex; ```
 
-7. inline-block 
+5. inline-block
     ``` display: inline-block; ```
