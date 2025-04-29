@@ -1,13 +1,30 @@
 {
-  "name": "UI-Framework-",
+  "name": "ui-framework-",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node ./test/test.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cisco248/UI-Framework-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.1"
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cisco248/UI-Framework-/issues"
+  },
+  "homepage": "https://github.com/Cisco248/UI-Framework-#readme"
 }
