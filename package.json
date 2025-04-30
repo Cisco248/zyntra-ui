@@ -10,10 +10,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "node ./test/test.js",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "build": "webpack --config webpack.config.js"
+    "postinstall": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Cisco248/UI-Framework-/issues"
   },
-  "homepage": "https://github.com/Cisco248/UI-Framework-#readme"
+  "homepage": "https://github.com/Cisco248/UI-Framework-#readme",
+  "dependencies": {
+    "sass": "^1.87.0"
+  }
 }

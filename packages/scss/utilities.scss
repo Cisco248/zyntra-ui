@@ -1,0 +1,307 @@
+// Height utility classes: h-10 to h-1000
+@for $count from 1 through 1000 {
+  .h-#{$count} {
+    height: #{$count * 5}px !important;
+  }
+}
+
+// Width utility classes: w-10 to w-1000
+@for $count from 1 through 1000 {
+  .w-#{$count} {
+    width: #{$count * 5}px !important;
+  }
+}
+
+// Z-index utility classes from .z-1 to .z-20
+@for $count from 1 through 20 {
+  .z-#{$count} {
+    z-index: #{$count *5} !important;
+  }
+}
+
+// Border-radius utility classes from .br-5 to .br-100
+@for $count from 5 through 100 {
+  .br-#{$count} {
+    border-radius: #{$count * 5}px !important;
+  }
+}
+
+.border-solid {
+  border-style: solid !important;
+}
+.border-dashed {
+  border-style: dashed !important;
+}
+.border-dotted {
+  border-style: dotted !important;
+}
+.border-double {
+  border-style: double !important;
+}
+.border-groove {
+  border-style: groove !important;
+}
+.border-inset {
+  border-style: inset !important;
+}
+.border-outset {
+  border-style: outset !important;
+}
+.border-ridge {
+  border-style: ridge !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+.no-border-left {
+  border-left: none !important;
+}
+.no-border-right {
+  border-right: none !important;
+}
+.no-border-top {
+  border-top: none !important;
+}
+.no-border-bottom {
+  border-bottom: none !important;
+}
+.no-border-visible {
+  border-color: transparent !important;
+}
+
+.border-none {
+  border: 0 !important;
+}
+.border-left-none {
+  border-left: none !important;
+}
+.border-right-none {
+  border-right: none !important;
+}
+.border-top-none {
+  border-top: none !important;
+}
+.border-bottom-none {
+  border-bottom: none !important;
+}
+.border-transparent {
+  border-color: transparent !important;
+}
+
+.border-left {
+  border-left: 1px solid transparent;
+}
+.border-right {
+  border-right: 1px solid transparent;
+}
+.border-top {
+  border-top: 1px solid transparent;
+}
+.border-bottom {
+  border-bottom: 1px solid transparent;
+}
+.border-top-left,
+.border-left-top {
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.border-top-right,
+.border-right-top {
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.border-bottom-right,
+.border-right-bottom {
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.border-bottom-left,
+.border-left-bottom {
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.border-top-bottom,
+.border-bottom-top {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+.border-right-left,
+.border-left-right {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.border-top-right-bottom {
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.border-right-bottom-left {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.border-bottom-left-top {
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.border-left-top-right {
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+// Generate padding classes
+@for $count from 1 through 100 {
+  .p-#{$count} {
+    padding: #{$count *5}px !important;
+  }
+
+  .pt-#{$count} {
+    padding-top: #{$count *5}px !important;
+  }
+
+  .pb-#{$count} {
+    padding-bottom: #{$count *5}px !important;
+  }
+
+  .pl-#{$count} {
+    padding-left: #{$count *5}px !important;
+  }
+
+  .pr-#{$count} {
+    padding-right: #{$count *5}px !important;
+  }
+}
+
+// Generate margin classes
+@for $count from 1 through 100 {
+  .m-#{$count} {
+    margin: #{$count *5}px !important;
+  }
+
+  .mt-#{$count} {
+    margin-top: #{$count *5}px !important;
+  }
+
+  .mb-#{$count} {
+    margin-bottom: #{$count *5}px !important;
+  }
+
+  .ml-#{$count} {
+    margin-left: #{$count *5}px !important;
+  }
+
+  .mr-#{$count} {
+    margin-right: #{$count *5}px !important;
+  }
+}
+
+// Generate gap classes
+@for $count from 1 through 100 {
+  .gap-#{$count} {
+    gap: #{$count *5 }px !important;
+  }
+}
+
+// Generate image size classes
+@for $count from 1 through 512 {
+  .i-size-#{$count} {
+    gap: #{$count *8 }px !important;
+  }
+}
+
+// Flexbox alignment utilities
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-none {
+  cursor: none;
+}
+.cursor-context-menu {
+  cursor: context-menu;
+}
+.cursor-help {
+  cursor: help;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-progress {
+  cursor: progress;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.cursor-cell {
+  cursor: cell;
+}
+.cursor-crosshair {
+  cursor: crosshair;
+}
+.cursor-text {
+  cursor: text;
+}
+.cursor-text-vertical {
+  cursor: vertical-text;
+}
+.cursor-alias {
+  cursor: alias;
+}
+.cursor-copy {
+  cursor: copy;
+}
+.cursor-move {
+  cursor: move;
+}
+.cursor-no-drop {
+  cursor: no-drop;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.list-dec-none {
+  text-decoration: none;
+  list-style: none;
+}
