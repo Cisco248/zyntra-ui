@@ -199,16 +199,17 @@
 }
 
 // Generate gap classes
-@for $count from 1 through 100 {
+@for $count from 1 through 50 {
   .gap-#{$count} {
     gap: #{$count *5 }px !important;
   }
 }
 
 // Generate image size classes
-@for $count from 1 through 512 {
+@for $count from 1 through 128 {
   .i-size-#{$count} {
-    gap: #{$count *8 }px !important;
+    width: #{$count *8 }px !important;
+    height: #{$count *8 }px !important;
   }
 }
 
