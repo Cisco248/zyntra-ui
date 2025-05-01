@@ -1,0 +1,76 @@
+// ----------------------------------------
+// Root Design Tokens
+// ----------------------------------------
+
+:root {
+    // Colors
+    --color-primary: #3b82f6;       // Blue
+    --color-primary-light: #60a5fa;
+    --color-primary-dark: #2563eb;
+
+    --color-secondary: #f97316;     // Orange
+    --color-accent: #10b981;        // Green
+    --color-muted: #6b7280;         // Gray
+
+    --color-bg: #ffffff;
+    --color-surface: #f9fafb;
+    --color-border: #e5e7eb;
+    --color-text: #1f2937;
+
+    // Font Sizes
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 1.875rem;
+
+    // Border Radius
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-full: 9999px;
+
+    // Spacing
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+
+    // Transition
+    --transition-fast: 150ms;
+    --transition-base: 300ms;
+  }
+
+  // ----------------------------------------
+  // Dark Mode Overrides
+  // ----------------------------------------
+
+  .dark {
+    --color-bg: #1e293b;
+    --color-surface: #334155;
+    --color-border: #475569;
+    --color-text: #f8fafc;
+
+    --color-primary: #60a5fa;
+    --color-primary-dark: #3b82f6;
+    --color-secondary: #fb923c;
+  }
+
+  // ----------------------------------------
+  // Example Utility Styles (Optional)
+  // ----------------------------------------
+
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .border-rounded {
+    border-radius: var(--radius-md);
+  }
