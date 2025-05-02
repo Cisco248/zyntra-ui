@@ -23,8 +23,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          registry-url: https://npm.pkg.github.com/@${{github.repository_owner}}/zyntraui
-          scope: '@${{ github.repository_owner }}'
+          registry-url: https://npm.pkg.github.com/
+          scope: '@Cisco248'
 
       - id: Authenticate-with-GitHub-Package-Registry
         run: |
@@ -34,13 +34,13 @@ jobs:
       - id: Clean-Install-Dependencies
         run: npm ci
 
-      - id: Publish-Package
+      - name: Authenticate with GitHub Package Registry
         run: |
-          npm login --scope=@Cisco248 --auth-type=legacy --registry=https://npm.pkg.github.com
-          Username: ${{ github.env.NPM_USERNAME }}
-          Password: ${{ github.env.NPM_PASSWORD }}
-          npm adduser
-          npm publish
+          echo "@Cisco248:registry=https://npm.pkg.github.com" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GIT_TOKEN }}" >> ~/.npmrc
+
+      - id: Publish-Package
+        run: npm publish
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
