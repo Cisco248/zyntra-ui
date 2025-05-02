@@ -29,4 +29,6 @@ jobs:
       - name: Publish package
         run: npm publish --access public
         env:
+          USERNAME: lahiru1248
+          PASSWORD: ${{secrets.NPM_PASSWORD}}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
