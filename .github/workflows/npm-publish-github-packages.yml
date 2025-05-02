@@ -27,8 +27,17 @@ jobs:
         run: npm ci
 
       - name: Publish package
-        run: npm publish --access public
+        run: npm publish --access public --timing
         env:
           USERNAME: lahiru1248
           PASSWORD: ${{secrets.NPM_PASSWORD}}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      - name: Archive npm logs
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+            name: npm-logs
+            path: /home/runner/.npm/_logs/
+            retention-days: 5
+
