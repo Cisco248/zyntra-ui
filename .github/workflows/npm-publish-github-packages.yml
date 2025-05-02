@@ -35,7 +35,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@${{ github.repository_owner }}'
       - run: npm ci
-      - run: npm adduser --scope=@${{ github.repository_owner }} --registry=.npmrc ${{secrets.NPM_TOKEN}}
+      - run: npm adduser --scope=@${{ github.repository_owner }} --registry=https://npm.pkg.github.com/ ${{secrets.NODE_AUTH_TOKEN}}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
