@@ -1,0 +1,35 @@
+name: publish in npm
+
+on:
+    push:
+        branches:
+            - main
+            - next
+
+permissions:
+    contents: write
+    issues: write
+    pull-requests: write
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 'lts/*'
+            - run: npm ci
+            - run: npm run build
+            - run: npm audit signatures
+
+            - name: Release to npm
+              env:
+                  NPM_GIT_TOKEN: ${{ secrets.NPM_GIT_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+              run: npx semantic-release
+
+

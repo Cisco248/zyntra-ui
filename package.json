@@ -4,15 +4,16 @@
   "description": "",
   "main": "app.js",
   "files": [
-    ".npmignore"
+    "dist",
+    "docs"
   ],
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "postinstall": "node app.js"
+    "dev": "node app.js",
+    "postinstall": "node app.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,10 @@
     "sass": "^1.87.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.3"
   }
 }

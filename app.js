@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const sass = require("sass");
 
-const DIST_DIR = path.join(__dirname);
+const DIST_DIR = path.join(__dirname, "dist");
 const DIST_PACKAGES_DIR = path.join(DIST_DIR, "packages");
 const SCSS_ENTRY_FILE = path.join(__dirname, "packages", "scss");
 // const SOURCE_CONFIG_FILE = path.join(__dirname, "zyntra.config.js");
