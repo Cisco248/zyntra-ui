@@ -36,7 +36,7 @@ jobs:
 
       - id: Publish-Package
         run: |
-          npm adduser --access public
+          npm adduser --registry=.npmjs.org/:_authToken=${{ secrets.GIT_TOKEN }} --scope=@${{ github.repository_owner }} --always-auth=false --auth-type=legacy --token=${{ secrets.GIT_TOKEN }}
           npm publish
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN}}
