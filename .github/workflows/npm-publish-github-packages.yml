@@ -37,8 +37,8 @@ jobs:
       - id: Publish-Package
         run: |
           npm login --scope=@Cisco248 --auth-type=legacy --registry=https://npm.pkg.github.com
-          Username: lahiru1248
-          Password: ${{ secrets.GIT_TOKEN }}
+          Username: ${{ github.env.NPM_USERNAME }}
+          Password: ${{ github.env.NPM_PASSWORD }}
           npm adduser
           npm publish
         env:
