@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cisco248/UI-Framework-.git"
+    "url": "git+https://github.com/Cisco248/UI-Framework-.git"
   },
   "keywords": [],
   "author": "",
