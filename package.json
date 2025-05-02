@@ -13,7 +13,7 @@
   },
   "license": "ISC",
   "author": "@cisco248",
-  "type": "module",
+  "type": "commonjs",
   "main": "app.js",
   "directories": {
     "doc": "docs"
