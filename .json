@@ -1,0 +1,37 @@
+{
+  "name": "@cisco248/zyntraui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "files": ["dist", "docs"],
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node app.js",
+    "postinstall": "node app.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cisco248/UI-Framework-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cisco248/UI-Framework-/issues"
+  },
+  "homepage": "https://github.com/Cisco248/UI-Framework-#readme",
+  "dependencies": {
+    "sass": "^1.87.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.3"
+  }
+}

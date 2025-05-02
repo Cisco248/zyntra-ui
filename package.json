@@ -1,40 +1,49 @@
 {
-  "name": "@Cisco248/zyntraui",
+  "name": "@cisco248/zyntraui",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "files": [
-    "dist",
-    "docs"
-  ],
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "dev": "node app.js",
-    "postinstall": "node app.js",
-    "semantic-release": "semantic-release"
+  "description": "zyntra new front-end ui framework (scss)",
+  "keywords": [],
+  "homepage": "https://github.com/Cisco248/UI-Framework-#readme",
+  "bugs": {
+    "url": "https://github.com/Cisco248/UI-Framework-/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cisco248/UI-Framework-.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Cisco248/UI-Framework-/issues"
+  "author": "@cisco248",
+  "type": "module",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
   },
-  "homepage": "https://github.com/Cisco248/UI-Framework-#readme",
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "build": "babel app.js -d dist",
+    "dev": "node app.js",
+    "postinstall": "node app.js",
+    "semantic-release": "semantic-release"
+  },
   "dependencies": {
     "sass": "^1.87.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.1",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "semantic-release": "^24.2.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
-  "devDependencies": {
-    "semantic-release": "^24.2.3"
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
