@@ -34,6 +34,11 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
           scope: '@${{ github.repository_owner }}'
+
+      - name: Authenticate with GitHub Package Registry
+        run: echo "@your-username:registry=https://npm.pkg.github.com/" >> ~/.npmrc &&
+             echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" >> ~/.npmrc
+
       - run: npm ci
       - run: npm adduser --scope=@${{ github.repository_owner }} --registry=https://npm.pkg.github.com/ ${{secrets.NPM_TOKEN}}
       - run: npm publish
