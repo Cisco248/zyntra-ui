@@ -28,7 +28,7 @@ jobs:
 
             - name: Release to npm
               env:
-                  NPM_GIT_TOKEN: ${{ secrets.NPM_GIT_TOKEN }}
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
               run: npx semantic-release
 
