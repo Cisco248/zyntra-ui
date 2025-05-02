@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "directories": {
-    "doc": "docs",
-    "test": "test"
+    "doc": "docs"
   },
   "scripts": {
     "start": "node app.js",
