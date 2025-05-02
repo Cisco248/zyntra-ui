@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const sass = require("sass");
 
-const DIST_DIR = path.join(__dirname, "zyntra");
+const DIST_DIR = path.join(__dirname);
 const DIST_PACKAGES_DIR = path.join(DIST_DIR, "packages");
 const SCSS_ENTRY_FILE = path.join(__dirname, "packages", "scss");
 // const SOURCE_CONFIG_FILE = path.join(__dirname, "zyntra.config.js");
@@ -63,7 +63,7 @@ function Copy_Config_File() {
 function Ceate_Main_CSS_File() {
   try {
     const OUTPUT_MAIN_CSS = path.join(DIST_DIR, "main.css");
-    const MAIN_CSS_TEXT = `@import url("zyntra/packages/animation.css");\n@import url("zyntra/packages/core.css");\n@import url("zyntra/packages/colors.css");\n@import url("zyntra/packages/themes.css");\n@import url("zyntra/packages/utilities.css");\n`;
+    const MAIN_CSS_TEXT = `@import url("node_modules/zyntraui/zyntra/packages/animation.css");\n@import url("node_modules/zyntraui/zyntra/packages/core.css");\n@import url("node_modules/zyntraui/zyntra/packages/colors.css");\n@import url("node_modules/zyntraui/zyntra/packages/themes.css");\n@import url("node_modules/zyntraui/zyntra/packages/utilities.css");\n`;
     fs.writeFileSync(OUTPUT_MAIN_CSS, MAIN_CSS_TEXT);
     console.log("+ ", OUTPUT_MAIN_CSS);
   } catch (error) {
