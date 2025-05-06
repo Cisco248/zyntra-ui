@@ -2,11 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const sass = require("sass");
 
-const DIST_DIR = path.join(__dirname, "dist");
+const DIST_DIR = path.join(__dirname, "src");
 const DIST_PACKAGES_DIR = path.join(DIST_DIR, "packages");
 const SCSS_ENTRY_FILE = path.join(__dirname, "packages", "scss");
-// const SOURCE_CONFIG_FILE = path.join(__dirname, "zyntra.config.js");
-// const DEST_CONFIG_FILE = path.join(DIST_DIR, "zyntra.config.js");
 
 function Make_Dist_Directory() {
   if (!fs.existsSync(DIST_DIR, DIST_PACKAGES_DIR)) {
@@ -42,24 +40,6 @@ function Compile_SCSS_To_CSS() {
   }
 }
 
-function Copy_Config_File() {
-  try {
-    if (!fs.existsSync(SOURCE_CONFIG_FILE)) {
-      console.error("! ", SOURCE_CONFIG_FILE);
-      return;
-    }
-
-    if (!fs.existsSync(DEST_CONFIG_FILE)) {
-      fs.copyFileSync(SOURCE_CONFIG_FILE, DEST_CONFIG_FILE);
-      console.log("+ ", DEST_CONFIG_FILE);
-    } else {
-      console.log("! ", DEST_CONFIG_FILE);
-    }
-  } catch (error) {
-    console.error("! ", error.message);
-  }
-}
-
 function Ceate_Main_CSS_File() {
   try {
     const OUTPUT_MAIN_CSS = path.join(DIST_DIR, "main.css");
@@ -74,7 +54,6 @@ function Ceate_Main_CSS_File() {
 function main() {
   Make_Dist_Directory();
   Compile_SCSS_To_CSS();
-  // Copy_Config_File();
   Ceate_Main_CSS_File();
 }
 

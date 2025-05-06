@@ -1,0 +1,8 @@
+# Ignore all files
+!node_modules
+!packages
+!.npmignore
+!.github
+!app.js
+!package-lock.json
+!package.json
