@@ -1,53 +1,29 @@
 {
-  "name": "@cisco248/zyntraui",
+  "name": "zyntra-ui",
   "version": "1.0.0",
-  "description": "zyntra new front-end ui framework (scss)",
-  "keywords": [],
-  "homepage": "https://github.com/Cisco248/UI-Framework-#readme",
-  "bugs": {
-    "url": "https://github.com/Cisco248/UI-Framework-/issues"
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate": "ts-node ./package/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cisco248/zyntra-ui.git"
   },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "author": "@cisco248",
-  "type": "commonjs",
-  "main": "app.js",
-  "directories": {
-    "doc": "docs"
+  "bugs": {
+    "url": "https://github.com/Cisco248/zyntra-ui/issues"
   },
-  "files": [
-    "dist",
-    "docs"
-  ],
-  "scripts": {
-    "build": "babel app.js -d dist",
-    "dev": "node app.js",
-    "postinstall": "node app.js",
-    "semantic-release": "semantic-release",
-    "generate:css": "tsc packages/ts/utilities.ts"
-  },
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "sass": "^1.87.0",
-    "typescript": "^5.8.3"
-  },
+  "homepage": "https://github.com/Cisco248/zyntra-ui#readme",
+  "description": "",
   "devDependencies": {
-    "@babel/cli": "^7.27.1",
-    "@babel/core": "^7.27.1",
-    "@babel/preset-env": "^7.27.1",
-    "@types/node": "^22.15.12",
-    "semantic-release": "^24.2.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
-    "access": "public"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
+    "@types/node": "^24.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
